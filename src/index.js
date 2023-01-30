@@ -2,7 +2,7 @@ module.exports = function (plainText) {
     if (!plainText) return;
     var slug;
     // Upper to lowser
-    slug = text.toLowerCase();
+    slug = plainText.toLowerCase();
 
     // Change accented characters to unsigned
     slug = slug.replace(/á|à|ả|ạ|ã|ă|ắ|ằ|ẳ|ẵ|ặ|â|ấ|ầ|ẩ|ẫ|ậ/gi, 'a');
@@ -15,7 +15,7 @@ module.exports = function (plainText) {
 
     // Remove special characters
     slug = slug.replace(/\`|\~|\!|\@|\#|\||\$|\%|\^|\&|\*|\(|\)|\+|\=|\,|\.|\/|\?|\>|\<|\'|\"|\:|\;|_/gi, '');
-    
+
     // Convert spaces to dashes
     slug = slug.replace(/ /gi, "-");
     slug = slug.replace(/\-\-\-\-\-/gi, '-');
