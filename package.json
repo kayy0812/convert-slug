@@ -1,0 +1,25 @@
+{
+  "name": "create-slug",
+  "version": "1.0.0",
+  "description": "Convert from plaintext to slug parameter",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kayy0812/create-slug.git"
+  },
+  "keywords": [
+    "create",
+    "slug",
+    "text",
+    "convert"
+  ],
+  "author": "kayy0812",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kayy0812/create-slug/issues"
+  },
+  "homepage": "https://github.com/kayy0812/create-slug#readme"
+}
