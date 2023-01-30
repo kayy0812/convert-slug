@@ -1,6 +1,6 @@
 {
-  "name": "create-slug",
-  "version": "1.0.0",
+  "name": "convert-slug",
+  "version": "1.0.2",
   "description": "Convert from plaintext to slug parameter",
   "main": "src/index.js",
   "scripts": {
@@ -9,10 +9,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/kayy0812/create-slug.git"
+    "url": "git+ssh://git@github.com/kayy0812/convert-slug.git"
   },
   "keywords": [
-    "create",
+    "convert",
     "slug",
     "text",
     "convert"
@@ -20,9 +20,9 @@
   "author": "kayy0812",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kayy0812/create-slug/issues"
+    "url": "https://github.com/kayy0812/convert-slug/issues"
   },
-  "homepage": "https://github.com/kayy0812/create-slug#readme",
+  "homepage": "https://github.com/kayy0812/convert-slug#readme",
   "devDependencies": {
     "uglifyjs-webpack-plugin": "^2.2.0",
     "webpack": "^5.75.0",
