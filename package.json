@@ -4,7 +4,8 @@
   "description": "Convert from plaintext to slug parameter",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node node_modules/webpack/bin/webpack.js --mode production",
+    "dev": "node node_modules/webpack/bin/webpack.js --mode development --watch"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/kayy0812/create-slug/issues"
   },
-  "homepage": "https://github.com/kayy0812/create-slug#readme"
+  "homepage": "https://github.com/kayy0812/create-slug#readme",
+  "devDependencies": {
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
 }
